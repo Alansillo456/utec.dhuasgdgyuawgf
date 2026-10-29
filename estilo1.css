@@ -1,0 +1,50 @@
+body {background-image: url("./imagenes/piso2.avif");}
+
+h1 {font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    color: #ffffff; /* Color interno del texto */
+    text-align: center;
+    /* Simulamos el efecto 3D con varias sombras apiladas */
+    text-shadow:
+        2px 2px 0px #333,
+        4px 4px 0px #333,
+        6px 6px 0px #333,
+        8px 8px 15px rgba(0, 0, 0, 0.5); /* Sombra difuminada final */
+}
+li {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    font-weight: 1000;
+    color: black;
+    text-align: left;
+}
+.introduccion {font-family: 'Amatic SC', cursive;
+font-size: 50px;
+font-weight: 1000;
+color: black;
+text-align: center;;}
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    color: #ffffff; /* Color interno del texto */
+    text-align: center;
+    /* Simulamos el efecto 3D con varias sombras apiladas */
+    text-shadow:
+        2px 2px 0px #333,
+        4px 4px 0px #333,
+        6px 6px 0px #333,
+        8px 8px 15px rgba(0, 0, 0, 0.5); /* Sombra difuminada final */
+}
+.imagen-personalizada {
+    display: block;      /* Necesario para que funcionen los márgenes automáticos */
+    width: 740px;
+    height: auto;
+    margin-left: auto;   /* Empuja la imagen hacia la derecha */
+    margin-right: auto;  /* Empuja la imagen hacia la izquierda, logrando que quede al centro */
+}
+.coso {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
